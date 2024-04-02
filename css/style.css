@@ -28,12 +28,18 @@ body {
 .header__ul{
     list-style: none;
 }
-.header__link{
+.header__li{
     display: inline-block;
     padding: 0 20px;
     text-decoration: none;
     color: black;
 } 
+
+.header__link{
+    text-decoration: none;
+    color: black;
+}
+
 .contenedor{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
